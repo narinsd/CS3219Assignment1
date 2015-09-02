@@ -24,7 +24,7 @@ import javax.swing.JSeparator;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 
-import SharedRepo.Input2;
+
 import SharedRepo.MasterControl;
 
 
