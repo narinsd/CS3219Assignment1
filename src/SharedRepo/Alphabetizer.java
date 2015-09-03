@@ -19,6 +19,9 @@ public class Alphabetizer {
 		
 	}
 
+	/*
+	 * Sort the results in an alphabetical order
+	 */
 	public void sort(ArrayList<String> unsortedResult) {
 		Collections.sort(unsortedResult, ALPHABETICAL_ORDER );
 	}

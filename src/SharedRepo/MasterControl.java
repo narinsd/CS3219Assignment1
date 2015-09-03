@@ -4,6 +4,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/*
+ * Main class that maintain the access to the data of sub components
+ */
 public class MasterControl {
 	
 	private Input input;
@@ -18,6 +21,9 @@ public class MasterControl {
 		output = new Output();
 	}
 	
+	/*
+	 * run Master Control
+	 */
 	public String start(ArrayList<String> list) throws IOException {
 		input.readData();
 		ArrayList<String> splittedContext = input.getSplittedContext();

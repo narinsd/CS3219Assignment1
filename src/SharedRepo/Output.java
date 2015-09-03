@@ -9,6 +9,9 @@ public class Output {
 		
 	}
 	
+	/*
+	 * Print the result
+	 */
 	public String print(ArrayList<String> sortedResult) {
 		
 		

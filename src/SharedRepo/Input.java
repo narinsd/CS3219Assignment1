@@ -32,6 +32,9 @@ public class Input {
 		return sc.nextLine();
 	}
 	
+	/*
+	 * Split the String of word list by comma
+	 */
 	private ArrayList<String> splitByComma() {
 		String[] words = inputString.split(",");
 		
@@ -45,6 +48,9 @@ public class Input {
 		return wordList;
 	}
 	
+	/*
+	 * Read data from input
+	 */
 	public void readData() throws IOException {
 		splittedContext = splitByComma();
 		//br.lines().forEach(word -> ignoredWordList.add(word.trim()));
